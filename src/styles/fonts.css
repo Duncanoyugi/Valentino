@@ -1,0 +1,9 @@
+@layer base {
+  .font-serif {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .font-cursive {
+    font-family: 'Great Vibes', cursive;
+  }
+}
