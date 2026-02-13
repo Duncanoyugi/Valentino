@@ -36,7 +36,7 @@ function App() {
     play: playAudio,
     toggleMute
   } = useAudioPlayer({
-    src: '/music/Platform-Tz-Ananipenda-ft-Marioo.mp3',
+src: '/music/Ed_Sheeran_-_Perfect(256k).mp3',
     autoPlay: false,
     loop: true,
     volume: 0.5 // Increased volume for better audibility
