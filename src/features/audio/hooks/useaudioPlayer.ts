@@ -44,6 +44,19 @@ export const useAudioPlayer = ({
     }
   }, [isPlaying]);
 
+  // Handle autoPlay
+  useEffect(() => {
+    if (!audioRef.current) return;
+
+    if (autoPlay) {
+      audioRef.current.play().catch(() => {
+        // Autoplay was prevented or playback failed
+        setIsPlaying(false);
+      });
+      setIsPlaying(true);
+    }
+  }, [autoPlay]);
+
   const play = useCallback(() => {
     setIsPlaying(true);
   }, []);
