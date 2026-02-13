@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useTimeline } from './features/timeline/hooks/useTimeline';
 import { useAudioPlayer } from './features/audio/hooks/useAudioPlayer';
 import { AppContainer } from './components/layout/AppContainer';
@@ -33,23 +32,17 @@ function App() {
   } = useTimeline();
 
   const {
-    isPlaying: isAudioPlaying,
     isMuted,
     play: playAudio,
     toggleMute
   } = useAudioPlayer({
-    src: '/music/perfect.mp3',
+    src: '/music/Platform-Tz-Ananipenda-ft-Marioo.mp3',
     autoPlay: false,
     loop: true,
-    volume: 0.2 // Low volume, romantic
+    volume: 0.5 // Increased volume for better audibility
   });
 
-  // Start audio when experience begins
-  useEffect(() => {
-    if (hasStarted && !isAudioPlaying) {
-      playAudio();
-    }
-  }, [hasStarted, isAudioPlaying, playAudio]);
+  // Audio will be started manually on play button click to comply with browser autoplay policies
 
   const renderScene = () => {
     const sceneProps = {
@@ -110,7 +103,7 @@ function App() {
       {/* Start Button */}
       {!hasStarted && (
         <div className="absolute inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm z-50">
-          <PlayButton onClick={start} />
+          <PlayButton onClick={() => { playAudio(); start(); }} />
         </div>
       )}
     </AppContainer>

@@ -34,15 +34,15 @@ export const useAudioPlayer = ({
   useEffect(() => {
     if (!audioRef.current) return;
 
-    if (autoPlay && isPlaying) {
+    if (isPlaying) {
       audioRef.current.play().catch(() => {
-        // Autoplay was prevented
+        // Autoplay was prevented or playback failed
         setIsPlaying(false);
       });
     } else {
       audioRef.current.pause();
     }
-  }, [autoPlay, isPlaying]);
+  }, [isPlaying]);
 
   const play = useCallback(() => {
     setIsPlaying(true);

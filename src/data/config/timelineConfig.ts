@@ -55,7 +55,7 @@ export const TIMELINE_CONFIG: TimelineScene[] = [
   {
     id: 'message5',
     duration: TIMINGS.SCENE_DURATIONS.MESSAGE1,
-    text: 'Every beat of my heart whispers your name.',
+    text: 'Loving you feels like finding home in a person. In your arms, the world fades and nothing else matters.',
     animation: 'fadeInUp',
     animationDelay: 800,
     gradientStart: '#dc2626',
@@ -65,7 +65,7 @@ export const TIMELINE_CONFIG: TimelineScene[] = [
   {
     id: 'message6',
     duration: TIMINGS.SCENE_DURATIONS.MESSAGE2,
-    text: 'You make every ordinary moment extraordinary.',
+    text: "I don't just want you for a moment, I want your laughter in my mornings and your heartbeat beside mine at night.",
     animation: 'fadeInUp',
     animationDelay: 800,
     gradientStart: '#e11d48',
@@ -75,7 +75,7 @@ export const TIMELINE_CONFIG: TimelineScene[] = [
   {
     id: 'message7',
     duration: TIMINGS.SCENE_DURATIONS.MESSAGE1,
-    text: 'With you, forever isn\'t long enough.',
+    text: "If I could pause time, I'd freeze every second spent in your arms and live there forever.",
     animation: 'fadeInUp',
     animationDelay: 800,
     gradientStart: '#f43f5e',
@@ -85,7 +85,7 @@ export const TIMELINE_CONFIG: TimelineScene[] = [
   {
     id: 'message8',
     duration: TIMINGS.SCENE_DURATIONS.MESSAGE2,
-    text: 'Your smile is my favorite sunrise.',
+    text: "I don't just want you for a moment, I want your laughter in my mornings and your heartbeat beside mine at night.",
     animation: 'fadeInUp',
     animationDelay: 800,
     gradientStart: '#fb7185',
@@ -95,7 +95,7 @@ export const TIMELINE_CONFIG: TimelineScene[] = [
   {
     id: 'message9',
     duration: TIMINGS.SCENE_DURATIONS.MESSAGE1,
-    text: 'I love you more with each passing day.',
+    text: 'You are the sweetest chapter of my life, the one I never want to end.',
     animation: 'fadeInUp',
     animationDelay: 800,
     gradientStart: '#fca5a5',

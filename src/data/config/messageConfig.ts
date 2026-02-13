@@ -21,23 +21,23 @@ export const MESSAGE_CONFIG = {
     author: 'Forever Yours',
   },
   message5: {
-    text: 'Every beat of my heart whispers your name.',
+    text: 'Loving you feels like finding home in a person. In your arms, the world fades and nothing else matters.',
     author: 'For You',
   },
   message6: {
-    text: 'You make every ordinary moment extraordinary.',
+    text: "I don't just want you for a moment, I want your laughter in my mornings and your heartbeat beside mine at night.",
     author: 'With All My Heart',
   },
   message7: {
-    text: 'With you, forever isn\'t long enough.',
+    text: "If I could pause time, I'd freeze every second spent in your arms and live there forever.",
     author: 'Forever Yours',
   },
   message8: {
-    text: 'Your smile is my favorite sunrise.',
+    text: "I don't just want you for a moment, I want your laughter in my mornings and your heartbeat beside mine at night.",
     author: 'For You',
   },
   message9: {
-    text: 'I love you more with each passing day.',
+    text: 'You are the sweetest chapter of my life, the one I never want to end.',
     author: 'With All My Heart',
   },
   message10: {

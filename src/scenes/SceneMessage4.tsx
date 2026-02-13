@@ -15,7 +15,7 @@ export const SceneMessage4: React.FC<SceneProps> = ({ config, isActive }) => {
         className="text-4xl md:text-6xl font-serif text-white leading-relaxed"
       />
       <MessageText
-        text="— Forever Yours"
+        text="— Love You"
         animation="fadeIn"
         delay={(config.animationDelay || 0) + 2000}
         className="text-xl md:text-2xl text-rose-300/80 mt-8"
